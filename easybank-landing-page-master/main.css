@@ -24,17 +24,39 @@ section{
     flex-direction: row;
     background-color: hsl(0, 0%, 98%);    
 }
+.section-second{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(220, 16%, 96%);
+}
+.section-second-content1{
+    display: flex;
+    flex-direction: column;
+    margin: 3cm 0 0 4cm;
+    border: springgreen solid 1px;
+}
+.section-second-content2{
+    display: flex;
+    flex-direction: row;
+    border: tomato solid 1px;
+    margin: 0 4cm;
+}
+.section-second-content{
+    border: orchid 1px solid;
+    width: 25%;
+}
 .section-first-div{
     max-width: 50%;
     /*border: solid 1px indianred;*/
     height: 100%;
     display: flex; 
-    justify-content: space-around;
+    
     align-items: center;
 }
 .section-first-div-content{
     width: 60%;
-    font-family: 'publicSans';      
+    font-family: 'publicSans';  
+    margin: 4cm;    
 }
 h1{
     font-size: 3rem;
