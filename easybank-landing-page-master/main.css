@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'publicSans';
+    src: url("./fonts/static/PublicSans-Light.ttf");
+    font-size: 18px;
+    font-weight: 300;
+}
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 36cm;
+    font-family: 'publicSans';
+    font-size: 1rem;
+}
+.nav{
+    height: 2cm;
+    background-color: lightseagreen;
+
+}
+section{   
+    height: 16cm;
+}
+.section-first{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 98%);    
+}
+.section-first-div{
+    max-width: 50%;
+    /*border: solid 1px indianred;*/
+    height: 100%;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+.section-first-div-content{
+    width: 60%;
+    font-family: 'publicSans';      
+}
+h1{
+    font-size: 3rem;
+    font-weight: 400;    
+}
+p{
+    /*color: hsl(233, 26%, 24%);*/
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+}
+button{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-color: hsl(136, 65%, 51%);
+    border-radius: 20px;
+    height: 1cm;
+    width: 4cm;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+#section-first-div-img{
+    background-image: url("images/bg-intro-desktop.svg");    
+    background-size: 160%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;     
+    background-position-x: -1.5cm; 
+    background-position-y: -5cm;     
+}
+img{
+    position: relative;
+   top: 1cm;
+   left: 3cm;
+    max-height: 24cm;    
+}
