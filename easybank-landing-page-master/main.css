@@ -11,6 +11,25 @@ body{
     font-family: 'publicSans';
     font-size: 1rem;
 }
+h1{
+    font-size: 3rem;
+    font-weight: 400;    
+}
+p{
+    /*color: hsl(233, 26%, 24%);*/
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+}
+button{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-color: hsl(136, 65%, 51%);
+    border-radius: 20px;
+    height: 1cm;
+    width: 4cm;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
 .nav{
     height: 2cm;
     background-color: lightseagreen;
@@ -39,25 +58,7 @@ section{
     font-family: 'publicSans';  
     margin: 4cm;    
 }
-h1{
-    font-size: 3rem;
-    font-weight: 400;    
-}
-p{
-    /*color: hsl(233, 26%, 24%);*/
-    color: hsl(233, 8%, 62%);
-    font-weight: 400;
-}
-button{
-    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-    background-color: hsl(136, 65%, 51%);
-    border-radius: 20px;
-    height: 1cm;
-    width: 4cm;
-    border: none;
-    color: hsl(0, 0%, 100%);
-    font-weight: 400;
-}
+
 #section-first-div-img{
     background-image: url("images/bg-intro-desktop.svg");    
     background-size: 160%;
@@ -69,8 +70,8 @@ button{
 }
 .section-first-img{
     position: relative;
-   top: 1cm;
-   left: 3cm;
+    top: 1cm;
+    left: 3cm;
     max-height: 24cm;    
 }
 /*      SECTION SECOND*/
@@ -95,6 +96,16 @@ button{
 .section-second-content{
     display: flex;
     flex-direction: column;
-    width: 24%;
-    
+    width: 24%;    
+}
+/*      SECTION THIRD   */
+#section-third{
+    background-color: hsl(0, 0%, 98%);
+}
+.treci{
+    background-color: hsl(0, 0%, 100%);
+}
+.section-third-img{
+    width: 225px;
+    height: 150px;
 }
