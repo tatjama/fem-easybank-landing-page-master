@@ -6,7 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="main.css">
-
+  <script type="text/javascript" src="js/openMenu.js"></script>
+  <script type="text/javascript" src="js/closeMenu.js"></script>
   <title>Frontend Mentor | Easybank landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -48,26 +49,8 @@
         </g>
       </svg>
     </div>
-
   </nav> 
-  <script>
-    function openMenu(){
-      document.getElementById('nav-center').style.display = "inherit";
-      document.querySelector('.hamburger').style.display = 'none';
-      document.querySelector('.close').style.display = 'inherit';
-      document.querySelector('.section-first').style.backgroundImage = 'linear-gradient( hsl(233, 26%, 24%), white)';
-      document.querySelector('.section-first-img').style.zIndex = "-100";
-      document.getElementById('section-first-div-img').style.backgroundImage = "url('./images/bg-intro-mobile-menu.svg')";
-    }
-    function closeMenu(){
-      document.getElementById('nav-center').style.display = "none";
-      document.querySelector('.hamburger').style.display = 'inherit';
-      document.querySelector('.close').style.display = 'none';
-      document.querySelector('.section-first').style.backgroundImage = 'inherit';
-      document.querySelector('.section-first-img').style.zIndex = "inherit";
-      document.getElementById('section-first-div-img').style.backgroundImage = "url('./images/bg-intro-mobile.svg')";
-    }
-  </script>
+  
 
   <section class="section-first">
     <div class="section-first-div">
