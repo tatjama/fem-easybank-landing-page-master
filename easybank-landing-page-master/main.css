@@ -106,6 +106,7 @@ section{
 /*      SECTION THIRD   */
 #section-third{
     background-color: hsl(0, 0%, 98%);
+    padding-bottom: 50px;
 }
 .third{
     background-color: hsl(0, 0%, 100%);
@@ -130,10 +131,15 @@ section{
     padding-right: 10%;
     padding-top: 1%;
 }
+.section-second-content.third{
+    background-color:hsl(0, 0%, 98%);
+}
 .section-third{
     padding: 5%;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    
 }
 .section-third:hover{
     color: hsl(192, 70%, 51%);
