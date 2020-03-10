@@ -13,6 +13,10 @@ body{
     overflow-x: hidden;
     height: 100%;
 }
+.container{
+    width: 100%;
+    margin: 0%;
+}
 h1{
     font-size: 3rem;
     font-weight: 400;    
@@ -226,16 +230,16 @@ svg path:hover{
     }
     #section-first-div-img{
         background-image: url('./images/bg-intro-mobile.svg');
-        background-size: contain;        
+        background-size: cover;        
         background-position-x: 0cm;
         background-position-y: 15px;
     }
     .section-first-img{
-        max-width: 320px;
+        max-width: 350px;
         max-height: auto;
         left: 0cm;
-        top: -1cm;
-        padding-left: 10px;
+        top: -50px;
+        padding-left: 15px;
     }
     button{
         margin: 30px 80px;
@@ -275,7 +279,7 @@ svg path:hover{
     }
     .hamburger{
         display: initial;
-        margin-left: 100px;
+        margin-left: 150px;
         margin-top: 40px;
     }
     #nav-left{
