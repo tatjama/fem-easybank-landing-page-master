@@ -150,7 +150,7 @@ nav{
     
     width: 100%;
     background-color: hsl(0, 0%, 100%);
-    position: fixed;
+    position: relative;
     z-index: 2;    
 }
 a{
@@ -242,14 +242,14 @@ svg path:hover{
         background-image: url('./images/bg-intro-mobile.svg');
         background-size: cover;        
         background-position-x: 0cm;
-        background-position-y: -10px;
-        margin-bottom: -50px;        
+        background-position-y: -70px;
+        margin-bottom: -130px;        
     }
     .section-first-img{
         max-width: 350px;
         max-height: auto;
         left: 0cm;
-        top: -75px;
+        top: -125px;
         padding-left: 15px;
     }
     button{
@@ -301,7 +301,7 @@ svg path:hover{
         width: 100%;
         font-weight: bold;
         font-size: 400;
-        padding: 20px 65px;
+        padding: 17px 65px;
     }
     a:first-child{
         border-top-left-radius: 5px;
