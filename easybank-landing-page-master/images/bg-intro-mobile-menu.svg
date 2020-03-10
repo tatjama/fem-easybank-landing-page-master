@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="423">
 <defs>
     <linearGradient id="c" x1="0%" x2="99.58%" y1="36.139%" y2="63.745%">
-        <stop offset="0%" stop-color="#33D35E"/>
+        <stop offset="0%" stop-color="hsl(233, 26%, 24%)"/>
         <stop offset="100%" stop-color="#2AB6D9"/>
     </linearGradient>
     <filter id="a" width="116.9%" height="158.7%" x="-10.8%" y="-28.8%" filterUnits="objectBoundingBox">

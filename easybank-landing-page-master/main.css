@@ -35,9 +35,10 @@ button{
     border: none;
     color: hsl(0, 0%, 100%);
     font-weight: 400;  
-    cursor: pointer;       
+    cursor: pointer;    
+    margin-top: 10px;   
 }
-.hamburger{
+.hamburger, .close{
     display: none;
 }
 section{   
@@ -48,7 +49,7 @@ section{
 .section-first{
     display: flex;
     flex-direction: row;
-    background-color: hsl(0, 0%, 98%);    
+    background-color: hsl(0, 0%, 98%);       
     flex-wrap: wrap;
 }
 .section-first-div{
@@ -144,9 +145,9 @@ section{
 .section-third:hover{
     color: hsl(192, 70%, 51%);
 }
-/*****NAVIGATION*******/
+/*****NAVIGATION******OVOOOOOO*/
 nav{
-    height: 77px;
+    
     width: 100%;
     background-color: hsl(0, 0%, 100%);
     position: fixed;
@@ -155,24 +156,25 @@ nav{
 a{
     display: block;
     float: left;
-    padding: 29px 11px;
+    padding: 20px 11px;
     width: 15%;    
     background-color: hsl(0, 0%, 100%);
     color: hsl(233, 8%, 62%);
     cursor: pointer;
 }
 /************Gradient bottom border********/
-.nav-center{    
+#nav-center{    
     background-image: repeating-linear-gradient(90deg, hsl(136, 65%, 51%) 40%, hsl(192, 70%, 51%) 60%);   
     width: 33%;
 }
-a:hover{
-    padding: 25px 11px;
+a:hover{    
+    padding-bottom: 15px;
 }
 
 /**********FOOTER******/
 footer{       
-    background-color: hsl(233, 26%, 24%);    
+    background-color: hsl(233, 26%, 24%);
+    padding-top: 25px;    
 }
 .footer-flex-row, .nav-flex-row{
     display: flex;
@@ -180,13 +182,13 @@ footer{
 } 
 .left, .right, .center{
     width: 33%; 
-    padding: 25px 0px;    
+   /* padding: 25px 0px;   */ 
 }
 .left{
     text-align: center;
 }
 .left svg{    
-    padding:20px 5px;   
+    padding:17px 5px;   
 }
 .footer-left-images svg{
     cursor: pointer;    
@@ -231,20 +233,23 @@ svg path:hover{
     }
     .section-first-div-content{
         margin: 0px;        
-        padding: 15px;
+        padding: 0px 20px;
         width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
     }
     #section-first-div-img{
         background-image: url('./images/bg-intro-mobile.svg');
         background-size: cover;        
         background-position-x: 0cm;
-        background-position-y: 15px;
+        background-position-y: -10px;
+        margin-bottom: -50px;        
     }
     .section-first-img{
         max-width: 350px;
         max-height: auto;
         left: 0cm;
-        top: -50px;
+        top: -75px;
         padding-left: 15px;
     }
     button{
@@ -275,18 +280,46 @@ svg path:hover{
     .section-third-content2{
         flex-direction: column;
         margin: 0cm;
+    }   
+    .nav-flex-row{
+        height: 50px;
     }
-    /*.section-second-content.third{
-        margin-bottom: 20px;
-    }*/
-    
-    .nav-center, .nav.right{
+    #nav-center, .nav.right{
         display: none;
+    }
+    #nav-center{
+        flex-direction: column;
+        background-image: none;        
+        margin-top: 70px;
+        width: 100%;
+        position: relative;
+        right: 120px;
+        text-align: center;
+    }
+    a{
+        color: hsl(233, 26%, 24%);
+        width: 100%;
+        font-weight: bold;
+        font-size: 400;
+        padding: 20px 65px;
+    }
+    a:first-child{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    a:last-child{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
     .hamburger{
         display: initial;
         margin-left: 150px;
-        margin-top: 40px;
+        margin-top: 20px;
+    }
+    .close{
+    
+        padding-right: 30px;
+        margin-top: 20px;
     }
     #nav-left{
         width: 50%;
